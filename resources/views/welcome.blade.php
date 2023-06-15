@@ -33,7 +33,7 @@
 
             <div class="max-w-7xl mx-auto p-6 lg:p-8">
                 <div>
-                    <h1 class="text-xl font-semibold">Deploying Laravel with Deployer</h1><br>
+                    <h1 class="text-xl font-semibold">Deploying Laravel with Deployer updated</h1><br>
                 </div>
                 <div class="flex justify-center">
                     <svg viewBox="0 0 62 65" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto bg-gray-100 dark:bg-gray-900">
