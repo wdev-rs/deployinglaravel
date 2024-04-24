@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "75f7922b43ab4964e62387d2b76e116d",
+    "content-hash": "cd208fa9b39dc2df20db0ada519c7001",
     "packages": [
         {
             "name": "brick/math",
@@ -7973,10 +7973,57 @@
                 }
             ],
             "time": "2021-07-28T10:34:58+00:00"
+        },
+        {
+            "name": "wdev-rs/deployer-recipes",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../deployer-recipes",
+                "reference": "4e7faa4d7cd3593b3e9bc0b8991ef6f5fa229054"
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "deployer/deployer": "^7.3",
+                "liip/rmt": "^1.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WdevRs\\DeployerRecipes\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "WdevRs\\DeployerRecipes\\Tests\\": "tests"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Verner",
+                    "email": "daniel@wdev.rs",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Opinionated deployer recipes for server src/provision and laravel deployment",
+            "homepage": "https://github.com/wdev-rs/deployer-recipes",
+            "keywords": [
+                "deployer-recipes",
+                "wdev-rs"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
@@ -7984,5 +8031,5 @@
         "php": "^8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }

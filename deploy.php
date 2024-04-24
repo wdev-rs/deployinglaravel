@@ -1,7 +1,8 @@
 <?php
 namespace Deployer;
 
-require 'recipe/laravel.php';
+require 'vendor/wdev-rs/deployer-recipes/recipe/laravel.php';
+require 'vendor/wdev-rs/deployer-recipes/recipe/provision.php';
 
 // Config
 
@@ -17,6 +18,8 @@ task('artisan:migrate')->disable();
 
 host('deployinglaravel.local')
     ->set('remote_user', 'deploy')
+//    ->set('remote_user', 'vernerd')
+//    ->set('become', 'root')
     ->set('deploy_path', '/var/www/deployinglaravel.local');
 
 // Hooks
